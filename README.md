@@ -33,28 +33,6 @@ Save workflow structure to console
 
 ---
 
-## 🗂️ Folder Structure
-
-src/
-├── components/
-│ ├── Canvas/
-│ │ ├── WorkflowCanvas.jsx
-│ │ └── WorkflowCanvas.css
-│ ├── Controls/
-│ │ ├── Toolbar.jsx
-│ │ ├── NodeMenu.jsx
-│ │ └── EditModal.jsx
-│ └── Node/
-│ ├── BaseNode.jsx
-│ └── Node.css
-├── hooks/
-│ └── useWorkflowState.jsx
-├── utils/
-│ └── workflowHelpers.js
-├── models/
-│ └── workflowModel.js
-├── App.jsx
-├── main.jsx
 
 
 
