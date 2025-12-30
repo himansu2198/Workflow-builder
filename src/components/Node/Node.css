@@ -1,0 +1,15 @@
+.workflow-node {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  min-width: 220px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.node-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+
