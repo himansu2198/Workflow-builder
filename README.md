@@ -6,7 +6,7 @@ Developed as part of a Frontend Intern Take-Home Assignment to demonstrate state
 
 🚀 Live Demo
 
-Live URL: [Vercel-] (https://workflow-builder-liard-six.vercel.app/)
+Live URL:(https://workflow-builder-liard-six.vercel.app/)
 
 GitHub Repo: (https://github.com/himansu2198/Workflow-builder)
 
