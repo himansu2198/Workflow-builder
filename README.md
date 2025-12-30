@@ -6,9 +6,9 @@ Developed as part of a Frontend Intern Take-Home Assignment to demonstrate state
 
 🚀 Live Demo
 
-Live URL: <Vercel / Netlify link>
+Live URL: [Vercel-] (https://workflow-builder-liard-six.vercel.app/)
 
-GitHub Repo: <GitHub repository link>
+GitHub Repo: (https://github.com/himansu2198/Workflow-builder)
 
 ✨ Features
 
@@ -24,37 +24,58 @@ Undo / Redo support
 
 Save workflow structure to console
 
-🧠 Architecture
+## 🧠 Architecture
 
-Tree-based data model
+- Tree-based workflow data model
+- Custom React Hooks for state management
+- Immutable state updates for predictable behavior
+- No external workflow, diagram, or UI libraries
 
-Custom React Hooks for state management
+---
 
-Immutable updates for predictable behavior
+## 🗂️ Folder Structure
 
-No external workflow or UI libraries
-
-🗂️ Folder Structure
 src/
 ├── components/
-│   ├── Canvas/
-│   │   ├── WorkflowCanvas.jsx
-│   │   └── WorkflowCanvas.css
-│   ├── Controls/
-│   │   ├── Toolbar.jsx
-│   │   ├── NodeMenu.jsx
-│   │   └── EditModal.jsx
-│   └── Node/
-│       ├── BaseNode.jsx
-│       └── Node.css
+│ ├── Canvas/
+│ │ ├── WorkflowCanvas.jsx
+│ │ └── WorkflowCanvas.css
+│ ├── Controls/
+│ │ ├── Toolbar.jsx
+│ │ ├── NodeMenu.jsx
+│ │ └── EditModal.jsx
+│ └── Node/
+│ ├── BaseNode.jsx
+│ └── Node.css
 ├── hooks/
-│   └── useWorkflowState.jsx
+│ └── useWorkflowState.jsx
 ├── utils/
-│   └── workflowHelpers.js
+│ └── workflowHelpers.js
 ├── models/
-│   └── workflowModel.js
+│ └── workflowModel.js
 ├── App.jsx
 ├── main.jsx
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Functional Components & Hooks)
+- JavaScript
+- CSS
+- Vite
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone (https://github.com/himansu2198/Workflow-builder)
+cd workflow-builder
+npm install
+npm run dev
+
 
 🛠️ Tech Stack
 
